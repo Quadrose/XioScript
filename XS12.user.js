@@ -971,14 +971,14 @@ function salePrice(type, subid, choice){
                 var indexFranchise = mapped[urlTM].franchise.indexOf( mapped[url].product[i] );
                 var product = mapped[urlTM].product[indexFranchise] || mapped[url].product[i];
                 var indexIP = mapped[urlIP].product.indexOf(product);
-                var IP = mapped[urlIP].IP[indexIP] * quality;
+                var IP = mapped[urlIP].IP[indexIP];
                 price = IP;
             }
             else if(choice[0] === 7){
                 var indexFranchise = mapped[urlTM].franchise.indexOf( mapped[url].product[i] );
                 var product = mapped[urlTM].product[indexFranchise] || mapped[url].product[i];
                 var indexIP = mapped[urlIP].product.indexOf(product);
-                var IP = mapped[urlIP].IP[indexIP] * quality;
+                var IP = mapped[urlIP].IP[indexIP];
                 price = 30*IP;
             }
             else if(choice[0] === 8){
