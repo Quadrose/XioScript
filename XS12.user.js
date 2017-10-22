@@ -1,3 +1,5 @@
+// stable with correct IP
+
 // ==UserScript==
 // @name           XioScript
 // @namespace      https://github.com/XiozZe/XioScript
